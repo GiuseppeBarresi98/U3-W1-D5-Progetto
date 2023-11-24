@@ -39,3 +39,6 @@ User1.chiamata(12);
 console.log(User1.getNumeroChiamate());
 User1.ricarica(30);
 console.log(User1.chiamata404());
+
+let User2 = new User(10, 32);
+let User3 = new User(50, 12);
