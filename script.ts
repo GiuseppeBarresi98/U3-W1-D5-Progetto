@@ -35,5 +35,7 @@ let User1 = new User(0, 0);
 
 User1.ricarica(10);
 User1.chiamata(12);
-console.log(User1.chiamata404());
+
 console.log(User1.getNumeroChiamate());
+User1.ricarica(30);
+console.log(User1.chiamata404());
